@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="heading" style="margin-bottom: 80px;">
+	<h1>Countdown Timer</h1>
+</div>
+<!-- partial:index.partial.html -->
+<div class="clock-input">
+	<input type="date" name="time-to" class="time-to" id="time-to" value="" onchange="calcTime(this.value)">
+</div>
+<div class="container">
+	<div class="clock-column">
+		<p class="clock-week clock-timer"></p>
+		<p class="clock-label">Week(s)</p>
+	</div>
+	<div class="clock-column">
+		<p class="clock-day clock-timer"></p>
+		<p class="clock-label">Day(s)</p>
+	</div>
+
+	<div class="clock-column">
+		<p class="clock-hours clock-timer"></p>
+		<p class="clock-label">Hour(s)</p>
+	</div>
+
+	<div class="clock-column">
+		<p class="clock-minutes clock-timer"></p>
+		<p class="clock-label">Minute(s)</p>
+	</div>
+
+	<div class="clock-column">
+		<p class="clock-seconds clock-timer"></p>
+		<p class="clock-label">Second(s)</p>
+	</div>
+</div>
+<!-- partial -->
+  
+
+<!-- Footer --> 
+<div id="foot">
+	<footer>
+	  <div class="">
+	    <div class="row">
+	      <div class="col-xs-12">
+	            
+
+	        <p class="copyright">©All rights reserved. Developed by <a href="http://cmuonagor.com/">Muonagor Chukwuemeka.</a> Thanks to Karlo Šteković</p>
+	        
+	      </div>
+	    </div>
+	  </div>
+	</footer>
+</div>
+	
+	<script  src="./script.js"></script>
+
+</body>
+</html>
